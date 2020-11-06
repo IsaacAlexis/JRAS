@@ -18,31 +18,27 @@
         app:layout_constraintVertical_bias="0.101" />
 
     <Button
-        android:id="@+id/gggg"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="170dp"
-        android:layout_marginEnd="153dp"
-        android:layout_marginBottom="44dp"
         android:text="Button"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="124dp" />
 
     <Button
-        android:id="@+id/ttt"
+        android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="635dp" />
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="209dp" />
 
-    <ImageView
-        android:id="@+id/imageView2"
+    <Button
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="146dp"
-        tools:layout_editor_absoluteY="466dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:text="Button"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="322dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
