@@ -16,6 +16,15 @@ public class MainActivity extends AppCompatActivity {
     private EditText etProducto;
     private TextView tvPreoducto;
 
+    private Button btnNuevo2;
+    private ImageButton btnImage2;
+    private EditText etCodigo2;
+    private EditText etProducto2;
+    private TextView tvPreoducto2;
+
+
+    private Button btnNuevo3;
+    private ImageButton btnImage3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
