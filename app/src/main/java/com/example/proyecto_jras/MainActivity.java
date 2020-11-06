@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
     private Button btnNuevo3;
     private ImageButton btnImage3;
 
+    private static final int CODIGO_PERMISOS_CAMARA = 1, CODIGO_INTENT = 2;
+    private boolean permisoCamaraConcedido = false, permisoSolicitadoDesdeBoton = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
