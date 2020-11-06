@@ -23,6 +23,9 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvPreoducto2;
 
 
+    private Button btnNuevo3;
+    private ImageButton btnImage3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
